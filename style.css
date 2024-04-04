@@ -1,0 +1,405 @@
+#Body{
+    margin: 0;
+    overflow-x: hidden;
+    /* font-size: x-large; */
+    position: relative;
+    font-family: "acumin-pro", "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background: #f9f9f9;
+    font-size: 12px;
+    text-size-adjust: 100%;
+    padding-top: 0 !important;
+    box-sizing: border-box;
+
+        
+
+}
+#Search{
+   margin-top: 10%;
+}
+
+#Header{
+   display: flex;
+   text-align: center;
+   gap: 30%;
+   margin-left: 10%;
+}
+#Navbar{
+ 
+   margin-top: 1%;
+   font-size: large;
+   gap: 20%;
+   display: flex;
+   
+    
+}
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h4{
+    color: darkgreen;
+}
+
+.Collection{
+    display:flex ;
+    gap: 30%;
+    margin-top: 5%;
+    font-size: larger;
+    
+    justify-content: center;
+    
+}
+
+#Inspirations{
+    display: flex;
+    
+  
+}
+#GrowOrchid{
+    display: flex;
+    gap: 10%;
+  
+}
+
+.Flowers1{
+
+}
+.Sale{
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+    margin-top: 4%;
+    font-size: large;
+}
+#mysale{
+    display: flex;
+    gap: 5%;
+}
+#Houseplants{
+    display: flex;
+    gap: 5%;
+}
+#Potted{
+    display: flex;
+    gap: 5%;
+}
+#Text1{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 600;
+    justify-content: space-between;
+    
+}
+#Plant1{
+    display: flex;
+}
+#Plant2{
+    display: flex;
+}
+#mainflower{
+  
+    justify-content: space-between;
+    margin-top: 4%;
+    width: 400px;
+}
+button{
+    background-color: darkgreen;
+    color: white;
+    border: none;
+    width: 150px;
+    height: 30px;
+    border-radius: 10%;
+}
+.Collection{
+    gap: 5%;
+}
+#Product{
+    text-align: center;
+    margin-top: 5%;
+}
+#TreeB{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    /* justify-content: space-around; */
+    font-stretch: expanded;
+    margin-top: 5%;
+
+}
+#Tree{
+    object-fit: cover;
+}
+#Text2{
+    font-stretch: extra-expanded;
+    font-size: x-large;
+}
+#Grows{
+    background-color: lightgray;
+    text-align: center;
+    font-size: x-large;
+}
+#Amaizingf{
+    display: grid;
+    grid-template-columns: auto,auto,auto,auto;
+}
+
+#Place1{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    
+}
+#Place2{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+#Place3{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+#Cactustree{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    font-size: large;
+    /* background-color: lightgray; */
+}
+#Blog{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    margin-top: 3%;
+    font-size: larger;
+}
+#Clients{
+    text-align: center;
+}
+#Persons{
+    display: flex;
+    gap: 10%;
+    border-radius: 20%;
+    justify-content: center;
+}
+#P1{
+    border-radius: 20%;
+}
+#P2{
+    border-radius: 20%;
+}
+#P3{
+    border-radius: 20%;
+}
+#Final{
+    text-align: center;
+}
+ #b2{
+    background-color: beige;
+    color: black;
+ }
+ #Footer{
+    display: flex;
+    justify-content: center;
+    gap: 15%;
+ }
+ #Favicon{
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    margin-right: 4%;
+ }
+ #conc{
+    text-align: center;
+    margin-top: 3%;
+ }
+ #Headflower{
+    width: 1200px;
+ }
+ h1{
+    font-style: italic;
+ }
+ 
+ @media only screen and (max-width:768px){
+
+    #Body{
+        margin: 0;
+        overflow-x: hidden;
+        font-size: medium;
+        
+    }
+    .Collection{
+        flex-wrap: wrap ;
+        
+    }
+
+    #Inspirations{
+        flex-wrap: wrap;
+        
+    }
+    #GrowOrchid{
+        flex-wrap: wrap;
+    
+      
+    }
+    .Sale{
+        flex-wrap: wrap;
+        /* gap: 10%; */
+        /* justify-content: center; */
+        margin-top: 4%;
+        /* font-size: large; */
+        font-size: medium;
+    }
+    #Place1{
+        flex-wrap: wrap;
+       
+        
+    }
+    #Place2{
+        flex-wrap: wrap;
+    }
+    #Place3{
+        flex-wrap: wrap;
+    }
+    #Blog{
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    }
+    #Persons{
+       flex-wrap: wrap;
+       justify-content: space-evenly;
+       /* gap: 20%; */
+    }
+    #Footer{
+        flex-wrap: wrap;
+     }
+     #TreeB{
+        flex-wrap: wrap;
+        font-size: small;
+    
+    }
+    #Tree{
+        width: 300px;
+    }
+    #mainflower{
+  
+        width: 30px;
+        margin-right: 100%;
+    }
+    .Sale{
+       flex-wrap: wrap;
+       justify-content: center;
+    }
+    #mysale{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #Plant1{
+        flex-wrap: wrap;
+        
+    }
+    #Plant2{
+        flex-wrap: wrap;
+    }
+    #Header{
+        text-align: center;
+        gap: 10%;
+    }
+    #Navbar{
+        flex-wrap: wrap;
+    }
+    #Headflower{
+        width: 50px;
+     }
+
+ }
+
+ @media only screen and (max-width:1280px){
+    #Body{
+        margin: 0;
+        overflow-x: hidden;
+        font-size: medium;
+        
+    }
+    #Plant1{
+       flex-wrap: wrap;
+        
+    }
+    .Sale{
+        flex-wrap: wrap;
+        justify-content: center;
+     }
+     #mainflower{
+  
+    margin-right: 50%;
+    }
+   
+    #Place1{
+        display: grid;
+        grid-template-columns: auto auto ;
+        /* justify-content: center; */
+        margin-left: 1%;
+       
+        
+    }
+    #Place2{
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-left: 1%;
+        justify-content: center;
+        margin-top: 3%;
+     
+        
+    }
+
+    #Place3{
+       display: grid;
+       grid-template-columns: auto auto;
+       justify-content: center;
+       margin-left: 1%;
+       margin-top: 3%
+    }
+
+    #Cactustree{
+       margin-top: 5%;
+
+ }
+ #Blog{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+ }
+ #mainflower{
+    width: 70px;
+ }
+#TreeB{
+   flex-wrap: wrap;
+
+}
+#Plant1{
+   display: grid;
+   grid-template-columns: auto;
+}
+#ct{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+#Clients{
+    margin-top: 30%;
+}
+#TreeB{
+    display: flex;
+    justify-content: center;
+    
+    /* justify-content: space-around; */
+   
+    margin-top: 5%;
+
+}
+#Header{
+    display: flex;
+    text-align: center;
+    gap: 20%;
+    margin-left: 10%;
+ }
+}
